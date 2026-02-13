@@ -97,11 +97,7 @@ export default function Home() {
       <div className="relative z-10 w-full max-w-md rounded-[32px] bg-white/90 p-8 text-center shadow-2xl backdrop-blur">
         <div className="mb-6 flex justify-center">
           <Image
-            src={
-              saidYes
-                ? 'https://pdf6oe852d.ufs.sh/f/6QWljTiolAt8GZTC7FXnyBL7xvCHiMdW24qAI39pZUF8VgYE'
-                : '/valentine.gif'
-            }
+            src={saidYes ? '/lp_image.jpeg' : '/valentine.gif'}
             alt={saidYes ? 'Valentine photo' : 'Cute love animation'}
             width={260}
             height={260}
